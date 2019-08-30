@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEST SYSTEM "COURSE_SCHEDULE.dtd">
+<COURSE_SCHEDULE>
+    <COURSE>
+        <COURSE_NUMBER>BUAD 5012</COURSE_NUMBER>
+        <COURSE_NAME>Competing Through Business Analytics</COURSE_NAME>
+        <SESSION>
+                <SESSION_NUMBER>1</SESSION_NUMBER>
+                <DAY>M W</DAY>
+<!--            <SESSION_NUMBER>5</SESSION_NUMBER> -->
+                <SESSION_TIME>9:30 a.m. - 10:50 a.m.</SESSION_TIME>
+        </SESSION>
+        <SESSION>
+                <SESSION_NUMBER>2</SESSION_NUMBER>
+                <DAY>M W</DAY>
+                <SESSION_TIME>11:00 a.m. - 11:45 a.m.</SESSION_TIME>
+        </SESSION>
+        <SESSION>
+                <SESSION_NUMBER>3</SESSION_NUMBER>
+                <DAY>T Th</DAY>
+                <SESSION_TIME>9:30 a.m. - 10:50 a.m.</SESSION_TIME>
+        </SESSION>
+        <SESSION>
+                <SESSION_NUMBER>4</SESSION_NUMBER>
+                <DAY>T Th</DAY>
+                <SESSION_TIME>11:00 a.m. - 11:45 a.m.</SESSION_TIME>
+        </SESSION>
+    </COURSE>
+</COURSE_SCHEDULE>
