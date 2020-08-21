@@ -1,0 +1,40 @@
+<Schedule>
+    <Course>
+        <Name>CTBA</Name>
+        <Number>BUAD 5012</Number>
+        <Session>
+            <Number>1</Number>
+            <Time>8:00 - 9:20 a.m.</Time>
+            <Days>MW</Days>
+        </Session>
+        <Session>
+            <Number>2</Number>
+            <Time>9:30 - 10:50 a.m.</Time>
+            <Days>MW</Days>
+        </Session>
+        <Session>
+            <Number>3</Number>
+            <Time>12:30 - 1:50 p.m.</Time>
+            <Days>MW</Days>
+        </Session>
+    </Course>
+    <Course>
+        <Name>Heuristic  Algorithms</Name>
+        <Number>BUAD 5042</Number>
+        <Session>
+            <Number>1</Number>
+            <Time>8:00 - 9:20 a.m.</Time>
+            <Days>TTh</Days>
+        </Session>
+        <Session>
+            <Number>2</Number>
+            <Time>9:30 - 10:50 a.m.</Time>
+            <Days>TTh</Days>
+        </Session>
+        <Session>
+            <Number>3</Number>
+            <Time>12:30 - 1:50 p.m.</Time>
+            <Days>TTh</Days>
+        </Session>
+    </Course>
+</Schedule>
