@@ -6,21 +6,34 @@ Created on Tue May 31 16:32:02 2016
 """
 
 import requests
+from bs4 import BeautifulSoup as bs
 from lxml import objectify
-from lxml import etree
 
 response = requests.get("http://w1.weather.gov/xml/current_obs/KJGG.xml").content
-#ET.fromstring(requests.get(url).content)
-print("\nFormatted XML from web site")
+
+print("\nRaw XML from web site")
 print("===========================")
 print(response)
 
+''' 2 Parsing Methods '''
 root = objectify.fromstring(response)
-print('Root Tag: ', root.tag, '\n')
+root1 = bs(response, 'lxml')
 
 print("Formatted XML from web site")
 print("===========================")
-print(etree.tostring(root, pretty_print=True), '\n')
+print(bs(response, 'lxml').prettify(), '\n')
+
+''' Beautifulsoup Method '''
+print('Root Tag: ', root1.tag, '\n')
+
+print("Selected data from XML structure")
+print("=================================")
+print('Temperature: ',root1.temperature_string.text)
+print('Wind: ', root.wind_string.text)
+print('Heat Index: ', root1.heat_index_string.text)
+
+''' lxml method '''
+print('Root Tag: ', root.tag, '\n')
 
 print("Selected data from XML structure")
 print("=================================")
