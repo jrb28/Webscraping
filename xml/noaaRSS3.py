@@ -33,7 +33,7 @@ print('Wind: ', root.wind_string.text)
 print('Heat Index: ', root1.heat_index_string.text)
 
 ''' lxml method '''
-print('Root Tag: ', root.tag, '\n')
+print('\n\nRoot Tag: ', root.tag, '\n')
 
 print("Selected data from XML structure")
 print("=================================")
