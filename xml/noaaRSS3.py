@@ -24,7 +24,7 @@ print("===========================")
 print(bs(response, 'lxml').prettify(), '\n')
 
 ''' Beautifulsoup Method '''
-print('Root Tag: ', root1.tag, '\n')
+print('Root Tag: ', [*root1.html.body.children][0].name, '\n')
 
 print("Selected data from XML structure")
 print("=================================")
