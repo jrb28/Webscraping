@@ -14,7 +14,7 @@ f_in.close()
 root = objectify.fromstring(strResponse)
 print(root.tag)
 
-for i in range(len(root)):
+for i in range(len(root['COURSE'])):
     print('\nCOURSE_NAME: ',root['COURSE'][i]["COURSE_NAME"])
     for j in range(len(root['COURSE'][i]['SESSION'])):
         print(root['COURSE'][i]['SESSION'][j]['SESSION_NUMBER'],root['COURSE'][i]['SESSION'][j]['DAY'],root['COURSE'][i]['SESSION'][j]['SESSION_TIME'])   
